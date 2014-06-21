@@ -1,0 +1,17 @@
+{
+  "name": "smart_url_resolve",
+  "version": "0.0.0",
+  "description": "smart_url_resolve",
+  "author": "Aldo Bucchi <aldo.bucchi@gmail.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "coffee test/test1.coffee",
+    "build": "coffee -c lib/",
+    "clean": "rm lib/*.js",
+    "prepublish": "npm run build",
+    "postpublish": "npm run clean"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  }
+}
